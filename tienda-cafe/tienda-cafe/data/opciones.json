@@ -1,0 +1,12 @@
+{
+  "cupones": [
+    { "codigo": "CAFE10", "descuento": 10, "descripcion": "10% de descuento" },
+    { "codigo": "TUESTE20", "descuento": 20, "descripcion": "20% de descuento" }
+  ],
+  "metodosEnvio": [
+    { "id": "retiro", "nombre": "Retiro en el local", "costo": 0, "plazo": "Listo en 24 h" },
+    { "id": "estandar", "nombre": "Envío estándar", "costo": 3500, "plazo": "3 a 5 días hábiles" },
+    { "id": "express", "nombre": "Envío express", "costo": 6200, "plazo": "24 a 48 h" }
+  ],
+  "metodosPago": ["Tarjeta de crédito", "Tarjeta de débito", "Transferencia bancaria"]
+}
